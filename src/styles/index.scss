@@ -1,0 +1,163 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #e9ecf1;
+}
+
+.Game-container {
+  height: 40rem;
+  width: 40rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background-color: olivedrab;
+}
+
+.card {
+  padding: 6rem;
+  background-color: olive;
+  flex: 1;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:not(last-child) {
+  margin-left: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.card-text {
+  font-weight: bolder;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.bg {
+  background-color: orange;
+}
+
+.win {
+  background-color: green;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.winner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: grey;
+  color: #e9ecf1;
+  width: 30rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-container {
+  padding-top: 5rem;
+}
+
+.button {
+  &,
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative;
+
+    //Change for the <button> element
+    border: none;
+    cursor: pointer;
+    background-color: green;
+  }
+}
+
+.reset {
+  background-color: olive;
+}
+
+.bg2 {
+  background-color: #8a0b7f;
+}
+
+.turnContainer {
+  height: 20rem;
+  width: 30rem;
+  background-color: #0a0f18;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.turn-1 {
+  flex: 1;
+  background-color: #8a0b7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.turn-2 {
+  background-color: orange;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.turn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.start-game-button {
+  background-color: olive;
+  color: #e9ecf1;
+  border: none;
+  outline: none;
+  padding: 2rem;
+  width: 60rem;
+  font-size: 10rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

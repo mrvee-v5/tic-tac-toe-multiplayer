@@ -68,3 +68,51 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## TIC TAC TOE MULTIPLAYER
+
+#
+
+#
+
+#
+
+#
+
+## GAME INSTRUCTIONS##
+
+## in other to play the tic tac toe multiplayer##
+
+## you have to open two seperate device/browser connecting to the same host name or address e.g REACT_APP_BASE_URL = https://baaa90603145.ngrok.io or LOCALHOST = http://127.0.0.1:3000
+
+## Start the server on this host === http://127.0.0.1:6000 which is your localhost
+
+## please use NGROK if you are having issue with cors //
+
+## by connecting to the device , you will get a message telling you if its your turn to play or not.
+
+## API
+
+## socket.io-client together with nodejs server for realtime update.
+
+## AREAS OF GAME IMPROVEMENTS.##
+
+## 1, an interface for creating players before hand so users can choose who to play with
+
+## 2, create levels of game
+
+## 3, play with different people when one is defeated
+
+## 4, play with IA ( COMPUTER) etc...
+
+## 5, user can also choose the kind of game to want play either with individual, group(turnament), computer(AI) etc ...
+
+## ONE WAY TO CHEAT##
+
+## 1, one way one can cheat on the game is by playing continousely without waiting for his opponent to play
+
+## but that has been taken care of in this current development.
+
+## CONCLUSION
+
+## the script is very is easy to read and modify, jump right in and improve this game more
